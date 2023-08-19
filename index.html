@@ -12,9 +12,54 @@
         <link rel="stylesheet" href="./stylesheet/main.css">
         <link rel="stylesheet" href="./stylesheet/theme.css">
     </head>
+    
     <body>
-        <hr class="border border-3 opacity-75 mt-0 hr-border">
-        <!-- <p class="h2 theme-h2 theme-primary">Welcome to Mavericks</p> -->
+        <hr class="border border-3 opacity-100 mt-0 mb-0 hr-border fixed-top">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary mt-1 fixed-top">
+            <div class="container-fluid">
+                <button class="nav-btn navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="theme-h3 theme-secondary navbar-title">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mavericks-4a701.appspot.com/o/Logo%2FMavericks-Logo.png?alt=media&token=a9a9f17d-8cb8-4da4-b268-b7c1845e0591" alt="Mavericks Logo" class="nav-logo-img">
+                    <span class="nav-logo-text lh-base align-middle text-uppercase">Mavericks</span>
+                </div>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <div class="theme-h3 text-light offcanvas-title" id="offcanvasNavbarLabel">Mavericks</div>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="d-flex text-light bi bi-x-lg"></i></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item nav-text nav-text-1">
+                                <a class="nav-link theme-p active" aria-current="page" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item nav-text">
+                                <a class="nav-link theme-p" href="#">Exploration</a>
+                            </li>
+
+                            <li class="nav-item nav-text">
+                                <a class="nav-link theme-p" href="#">Recommondation</a>
+                            </li>
+
+                            <li class="nav-item nav-text">
+                                <a class="nav-link theme-p" href="#">Strategies</a>
+                            </li>
+
+                            <li class="nav-item nav-text" style="margin-right: 50px !important;">
+                                <a class="nav-link theme-p" href="#">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
         <footer class="footer-area">
             <div class="container pt-4 pb-5">

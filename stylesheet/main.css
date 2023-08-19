@@ -1,4 +1,4 @@
-.btn {
+.Mavericksbtn {
     text-transform: uppercase;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     border: none;
@@ -12,14 +12,14 @@
     transition: 0.4s;
 }
 
-.btn > .wave-ripple {
+.Mavericksbtn > .wave-ripple {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.33);
     transform: scale(0);
     animation: wave-ripple 0.85s linear;
 }
 
-.btn:hover {
+.Mavericksbtn:hover {
     border-radius: 40px 0px 40px 0px;
 }
 
@@ -39,6 +39,11 @@
     margin: 0px 25px 0px 0px;
 }
 
+.nav-logo-img {
+    width: 50px;
+    margin: 0px 10px 0px 0px;
+}
+
 .footer-btn {
     text-decoration: none;
 }
@@ -46,8 +51,77 @@
 footer {
     width: 100%;
     background-color: #f7f7f7;
+    margin-top: 150px;
 }
 
 .footer-des {
     line-height: 25px !important;
+}
+
+.offcanvas.offcanvas-start {
+    width: 75%;
+}
+
+.navbar-title,
+.offcanvas-title {
+    margin: 10px;
+    cursor: default;
+}
+
+.nav-text {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: #2aa7df !important;
+}
+
+.active:hover {
+    color: #000 !important;
+}
+
+.nav-btn {
+    margin: 15px;
+    margin-left: 10px;
+    border: none;
+}
+
+.navbar-toggler-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.btn-close {
+    margin: 10px !important;
+    --bs-btn-close-bg: none;
+    --bs-btn-close-opacity: 1;
+}
+
+.offcanvas-header {
+    background-color: #2aa7df;
+}
+
+.navbar {
+    box-shadow: 0px 0px 10px #00000033;
+}
+
+@media screen and (max-width: 990px) {
+    .nav-logo-text {
+        display: none;
+    }
+
+    .nav-logo-img {
+        width: 60px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .nav-text {
+        margin-left: 30px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .nav-text-1 {
+        margin-top: 15px !important;
+    }
 }

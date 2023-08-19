@@ -1,7 +1,7 @@
-var buttons = document.body.getElementsByClassName("btn");
+var buttons = document.body.getElementsByClassName("Mavericksbtn");
 
-Array.prototype.forEach.call(buttons, function (btn) {
-    btn.addEventListener('click', createRipple);
+Array.prototype.forEach.call(buttons, function (Mavericksbtn) {
+    Mavericksbtn.addEventListener('click', createRipple);
 });
 
 function createRipple(e) {
